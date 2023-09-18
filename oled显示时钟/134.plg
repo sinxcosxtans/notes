@@ -1,0 +1,1685 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\单片机\程序\oled显示\134.uvproj
+Project File Date:  05/21/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling i2c.c...
+I2C.C(134): error C141: syntax error near '{'
+I2C.C(135): error C141: syntax error near 'for'
+I2C.C(135): error C141: syntax error near '=', expected ')'
+I2C.C(135): error C129: missing ';' before '<'
+Target not created
+Build target 'Target 1'
+compiling i2c.c...
+linking...
+Program Size: data=14.0 xdata=0 code=1613
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling i2c.c...
+linking...
+Program Size: data=14.0 xdata=0 code=1621
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(10): error C141: syntax error near 'uchar'
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(16): error C202: 'a': undefined identifier
+MAIN.C(21): error C202: 'y': undefined identifier
+MAIN.C(23): error C202: 'x': undefined identifier
+MAIN.C(25): error C202: 'x': undefined identifier
+MAIN.C(26): error C202: 'i': undefined identifier
+MAIN.C(28): error C202: 'a': undefined identifier
+MAIN.C(30): error C202: 'a': undefined identifier
+MAIN.C(36): error C202: 'a': undefined identifier
+MAIN.C(37): error C202: 'y': undefined identifier
+MAIN.C(39): error C202: 'x': undefined identifier
+MAIN.C(41): error C202: 'x': undefined identifier
+MAIN.C(42): error C202: 'i': undefined identifier
+MAIN.C(44): error C202: 'a': undefined identifier
+MAIN.C(46): error C202: 'a': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=14.0 xdata=0 code=1625
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling i2c.c...
+linking...
+Program Size: data=14.0 xdata=0 code=1625
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(40): error C208: '_oled_put_char_16x16': too many actual parameters
+MAIN.C(43): error C202: 'zifu': undefined identifier
+compiling i2c.c...
+I2C.C(193): error C236: '_oled_put_char_16x16': different length of parameter lists
+compiling oledchar.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(24): warning C209: '_oled_put_char_16x16': too few actual parameters
+MAIN.C(43): error C202: 'zifu': undefined identifier
+compiling i2c.c...
+compiling oledchar.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(27): error C202: 'zifi': undefined identifier
+MAIN.C(43): error C202: 'zifu': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(27): error C202: 'zifu': undefined identifier
+MAIN.C(43): error C202: 'zifu': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+linking...
+Program Size: data=15.0 xdata=0 code=2650
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling oledchar.c...
+linking...
+Program Size: data=15.0 xdata=0 code=2138
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+linking...
+Program Size: data=15.0 xdata=0 code=2138
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=15.0 xdata=0 code=2049
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=15.0 xdata=0 code=2049
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+OLEDCHAR.C(72): error C231: 'number': redefinition
+OLEDCHAR.C(134): error C141: syntax error near '{'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+OLEDCHAR.C(134): error C141: syntax error near '{'
+Target not created
+Build target 'Target 1'
+compiling oledchar.c...
+linking...
+Program Size: data=15.0 xdata=0 code=3057
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=15.0 xdata=0 code=3057
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=15.0 xdata=0 code=3057
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling oledchar.c...
+linking...
+Program Size: data=15.0 xdata=0 code=3057
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=15.0 xdata=0 code=3057
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(31): error C202: 'ucahr': undefined identifier
+MAIN.C(31): error C141: syntax error near 'i'
+MAIN.C(34): error C202: 'i': undefined identifier
+MAIN.C(36): error C202: 'i': undefined identifier
+MAIN.C(37): error C141: syntax error near 'for'
+MAIN.C(39): error C202: 'i': undefined identifier
+compiling oledchar.c...
+OLEDCHAR.C(4): error C163: 'zifu': unknown array size
+OLEDCHAR.C(15): error C141: syntax error near 'uchar'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(31): error C202: 'ucahr': undefined identifier
+MAIN.C(31): error C141: syntax error near 'i'
+MAIN.C(34): error C202: 'i': undefined identifier
+MAIN.C(36): error C202: 'i': undefined identifier
+MAIN.C(37): error C141: syntax error near 'for'
+MAIN.C(39): error C202: 'i': undefined identifier
+compiling oledchar.c...
+OLEDCHAR.C(15): error C141: syntax error near 'uchar'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(37): error C141: syntax error near 'for'
+compiling oledchar.c...
+OLEDCHAR.C(15): error C141: syntax error near 'uchar'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+OLEDCHAR.C(15): error C141: syntax error near 'uchar'
+Target not created
+Build target 'Target 1'
+compiling oledchar.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07D6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07DEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07EDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07EFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07FAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07FFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0801H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0806H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0808H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0810H
+Program Size: data=13.0 xdata=0 code=2207
+creating hex file from "134"...
+"134" - 0 Error(s), 23 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07D6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07DEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07EDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07EFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07FAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07FFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0801H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0806H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0808H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0810H
+Program Size: data=13.0 xdata=0 code=2207
+creating hex file from "134"...
+"134" - 0 Error(s), 23 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07D7H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07DDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07DFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E7H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07EEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F0H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F7H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07FBH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0800H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0802H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0807H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0809H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0811H
+Program Size: data=13.0 xdata=0 code=2208
+creating hex file from "134"...
+"134" - 0 Error(s), 23 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+OLEDCHAR.C(14): error C242: 'array[]': too many initializers
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 087EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0884H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0886H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 088AH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 088CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 088EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0890H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0895H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0897H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 089CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 089EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08A0H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08A2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08A7H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08AEH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08B0H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08B2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLE_TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08B8H
+Program Size: data=13.0 xdata=0 code=2375
+creating hex file from "134"...
+"134" - 0 Error(s), 23 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+OLEDCHAR.C(19): error C141: syntax error near '{'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+OLEDCHAR.C(36): error C242: 'array[]': too many initializers
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling oledchar.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A2DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A35H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A3FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A46H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A51H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A58H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A63H
+Program Size: data=26.0 xdata=0 code=2806
+creating hex file from "134"...
+"134" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A2DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A35H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A3FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A46H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A51H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A58H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A63H
+Program Size: data=26.0 xdata=0 code=2806
+creating hex file from "134"...
+"134" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A2DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A35H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A3FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A46H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A51H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A58H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A63H
+Program Size: data=26.0 xdata=0 code=2806
+creating hex file from "134"...
+"134" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A33H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A3BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A45H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A4CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A57H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A5EH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0A69H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F7H
+Program Size: data=26.0 xdata=0 code=2812
+creating hex file from "134"...
+"134" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09B2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09B8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09BFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09D2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09DFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09ECH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09F3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F7H
+Program Size: data=26.0 xdata=0 code=2836
+creating hex file from "134"...
+"134" - 0 Error(s), 16 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09AFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09B5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09BBH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09CFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09D5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09EFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09F6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F7H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07FAH
+Program Size: data=26.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09AFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09B5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09BBH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09CFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09D5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09EFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09F6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F7H
+Program Size: data=26.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(10): error C141: syntax error near 'single_time'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09AFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09B5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09BBH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C8H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09CFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09D5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E2H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09EFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09F6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+Program Size: data=26.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+Program Size: data=33.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09ADH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09B3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C0H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09C6H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09CDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09D3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09DAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E0H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09E7H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09EDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09FAH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SINGLETIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 08AFH
+Program Size: data=20.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+Program Size: data=33.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 099FH
+Program Size: data=33.0 xdata=0 code=2833
+creating hex file from "134"...
+"134" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(33): error C141: syntax error near 'uchar'
+MAIN.C(33): error C202: 'i': undefined identifier
+MAIN.C(40): error C202: 'i': undefined identifier
+MAIN.C(42): error C202: 'i': undefined identifier
+MAIN.C(43): error C202: 'j': undefined identifier
+MAIN.C(45): error C202: 'i': undefined identifier
+MAIN.C(50): error C202: 'i': undefined identifier
+MAIN.C(52): error C202: 'i': undefined identifier
+MAIN.C(53): error C202: 'j': undefined identifier
+MAIN.C(55): error C202: 'i': undefined identifier
+MAIN.C(58): error C202: 'i': undefined identifier
+MAIN.C(60): error C202: 'i': undefined identifier
+MAIN.C(62): error C202: 'j': undefined identifier
+MAIN.C(63): error C202: 'i': undefined identifier
+MAIN.C(64): error C202: 'i': undefined identifier
+MAIN.C(66): error C202: 'j': undefined identifier
+MAIN.C(71): error C202: 'i': undefined identifier
+MAIN.C(73): error C202: 'i': undefined identifier
+MAIN.C(74): error C202: 'j': undefined identifier
+MAIN.C(76): error C202: 'j': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DISPLAY?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F7H
+Program Size: data=33.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A5H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+Program Size: data=33.0 xdata=0 code=2839
+creating hex file from "134"...
+"134" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302READTIME
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 09A2H
+Program Size: data=33.0 xdata=0 code=2836
+creating hex file from "134"...
+"134" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(47): error C202: 'singletime': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(47): error C202: 'singletime': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(47): error C202: 'singletime': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(47): error C202: 'singletime': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+Program Size: data=20.0 xdata=0 code=2764
+creating hex file from "134"...
+"134" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DS1302INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 07F7H
+Program Size: data=20.0 xdata=0 code=2767
+creating hex file from "134"...
+"134" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling ds1302.c...
+DS1302.H(18): error C141: syntax error near 'addr', expected ')'
+DS1302.H(19): error C129: missing ';' before 'Ds1302Read'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling ds1302.c...
+DS1302.H(18): error C141: syntax error near 'addr', expected ')'
+DS1302.H(19): error C129: missing ';' before 'Ds1302Read'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling ds1302.c...
+DS1302.H(18): error C141: syntax error near 'addr', expected ')'
+DS1302.H(19): error C129: missing ';' before 'Ds1302Read'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling ds1302.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SINGLETIME
+    MODULE:  ds1302.obj (DS1302)
+Program Size: data=33.0 xdata=0 code=3188
+Target not created
+Build target 'Target 1'
+compiling ds1302.c...
+linking...
+Program Size: data=33.0 xdata=0 code=3175
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(101): error C202: 'singal': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(101): error C202: 'singaltime': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3362
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3362
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(34): warning C280: 'k': unreferenced local variable
+linking...
+Program Size: data=34.0 xdata=0 code=3265
+creating hex file from "134"...
+"134" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling i2c.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3269
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3366
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3463
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3463
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling ds1302.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling ds1302.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3466
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(138): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3488
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3500
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=34.0 xdata=0 code=3500
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(97): warning C206: 'key1': missing function-prototype
+MAIN.C(104): warning C206: 'key2': missing function-prototype
+MAIN.C(105): warning C206: 'key3': missing function-prototype
+compiling ds1302.c...
+compiling key.c...
+KEY.C(23): error C141: syntax error near 'if'
+KEY.C(46): error C187: not an lvalue
+KEY.C(50): error C187: not an lvalue
+KEY.C(53): error C187: not an lvalue
+KEY.C(64): error C187: not an lvalue
+KEY.C(67): error C187: not an lvalue
+KEY.C(70): error C187: not an lvalue
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(97): warning C206: 'key1': missing function-prototype
+MAIN.C(104): warning C206: 'key2': missing function-prototype
+MAIN.C(105): warning C206: 'key3': missing function-prototype
+compiling key.c...
+KEY.C(22): warning C275: expression with possibly no effect
+KEY.C(38): warning C275: expression with possibly no effect
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  ds1302.obj (DS1302)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  key.obj (KEY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E23H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E25H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E2CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0A78H
+Program Size: data=55.0 xdata=0 code=3771
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling key.c...
+KEY.C(22): warning C275: expression with possibly no effect
+KEY.C(38): warning C275: expression with possibly no effect
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  ds1302.obj (DS1302)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  key.obj (KEY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E22H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E24H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E2BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0A77H
+Program Size: data=55.0 xdata=0 code=3770
+Target not created
+Build target 'Target 1'
+compiling key.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  ds1302.obj (DS1302)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  key.obj (KEY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E26H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E28H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0E2FH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  STATUS
+    MODULE:  key.obj (KEY)
+    ADDRESS: 0A79H
+Program Size: data=55.0 xdata=0 code=3774
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling key.c...
+KEY.C(8): error C231: 'key1': redefinition
+KEY.C(20): error C231: 'key1': redefinition
+KEY.C(48): error C187: not an lvalue
+KEY.C(52): error C187: not an lvalue
+KEY.C(55): error C187: not an lvalue
+KEY.C(66): error C187: not an lvalue
+KEY.C(69): error C187: not an lvalue
+KEY.C(72): error C187: not an lvalue
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling key.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  ds1302.obj (DS1302)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  TIME2
+    MODULE:  key.obj (KEY)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY1?KEY
+Program Size: data=57.0 xdata=0 code=3776
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling ds1302.c...
+compiling key.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY1?KEY
+Program Size: data=43.0 xdata=0 code=3790
+creating hex file from "134"...
+"134" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY1?KEY
+Program Size: data=43.0 xdata=0 code=3817
+creating hex file from "134"...
+"134" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY1?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY2?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY3?KEY
+Program Size: data=43.0 xdata=0 code=3807
+creating hex file from "134"...
+"134" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling ds1302.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY1?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY2?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY3?KEY
+Program Size: data=43.0 xdata=0 code=3807
+creating hex file from "134"...
+"134" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY1?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY2?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY3?KEY
+Program Size: data=43.0 xdata=0 code=3804
+creating hex file from "134"...
+"134" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY1?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY2?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY3?KEY
+Program Size: data=43.0 xdata=0 code=3804
+creating hex file from "134"...
+"134" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=41.0 xdata=0 code=3564
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=41.0 xdata=0 code=3564
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=41.0 xdata=0 code=3537
+creating hex file from "134"...
+"134" - 0 Error(s), 0 Warning(s).

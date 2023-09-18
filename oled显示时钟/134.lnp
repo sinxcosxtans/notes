@@ -1,0 +1,7 @@
+"STARTUP.obj",
+"main.obj",
+"i2c.obj",
+"oledchar.obj",
+"ds1302.obj" 
+TO "134" 
+RAMSIZE(256) 

@@ -1,0 +1,166 @@
+C51 COMPILER V9.01   KEY                                                                   05/27/2020 10:13:20 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE KEY
+OBJECT MODULE PLACED IN key.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE key.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include"key.h"
+   2          
+   3          
+   4          uchar status=0;
+   5          uchar flag=0;
+   6          uchar a;
+   7          int CaculateWeekDay(int y,int m, int d) //根据年月日来计算星期几,三个参数代表年月日,基姆拉尔森计算公式
+   8          {
+   9   1       int iWeek;
+  10   1      if(m==1||m==2) {
+  11   2      m+=12;
+  12   2      y--;
+  13   2      }
+  14   1       iWeek=(d+2*m+3*(m+1)/5+y+y/4-y/100+y/400)%7;//0-1，星期一到星期日
+  15   1        return iWeek;
+  16   1      
+  17   1      } 
+  18          
+  19          void inint1()//中断1
+  20          {
+  21   1          EA=1;
+  22   1              EX1=1;
+  23   1              IT1=1;
+  24   1      
+  25   1      
+  26   1      }
+  27          
+  28          void int1()interrupt 2
+  29          {
+  30   1         delay(1000);
+  31   1         if(k4==0)
+  32   1         {
+  33   2          status=0;
+  34   2          flag=!flag;
+  35   2              if(flag==0)
+  36   2              Ds1302Init();
+  37   2              
+  38   2         }
+  39   1      }
+  40          
+  41          
+  42          
+  43          
+  44          
+  45          void key3()//选择变量
+  46          {
+  47   1        k3=1;
+  48   1        if(k3==0)
+  49   1        {
+  50   2           delay(1000);
+  51   2               if(k3==0)
+  52   2               {
+  53   3                 status++;
+  54   3                 status=status%6;//status从0到5
+  55   3                 //5代表年，4代表月，3代表日，2代表时，1代表分，0代表秒
+C51 COMPILER V9.01   KEY                                                                   05/27/2020 10:13:20 PAGE 2   
+
+  56   3               }
+  57   2               while(!k3);
+  58   2        }
+  59   1      }
+  60          
+  61          void key1()//加
+  62          {
+  63   1        k1=1;
+  64   1        if(k1==0)
+  65   1        {
+  66   2          delay(500);
+  67   2              if(k1==0)
+  68   2              {
+  69   3                TIME[status]++;
+  70   3                if((TIME[status]&0x0f)>9)
+  71   3                TIME[status]=TIME[status]+6;//换成bcd码
+  72   3                if(TIME[0]>0x59)TIME[0]=0;
+  73   3                if(TIME[1]>0x59)TIME[1]=0;
+  74   3                if(TIME[2]>0x23)TIME[2]=0;
+  75   3      
+  76   3                if(TIME[4]%2==1)//月份为单月
+  77   3                {
+  78   4                if(TIME[3]>0x31)TIME[3]=1;
+  79   4                }
+  80   3                  if(TIME[4]%2==0&&TIME[5]!=2)//月份为不为0的双月
+  81   3                  {
+  82   4                  if(TIME[3]>0x30)TIME[3]=1;
+  83   4                  }
+  84   3                        if(TIME[5]%4==0&&TIME[5]==2)//月份为闰月
+  85   3                    {
+  86   4                    if(TIME[3]>0x29)TIME[3]=1;
+  87   4                    }  
+  88   3                         if(TIME[5]%4!=0&&TIME[5]==2)//月份为平月
+  89   3                     {
+  90   4                      if(TIME[3]>0x28)TIME[3]=1;
+  91   4                     } 
+  92   3                if(TIME[4]>0x12)TIME[4]=1;
+  93   3                if(TIME[5]>0x99)TIME[5]=0;
+  94   3                 
+  95   3              }
+  96   2              while(!k3);
+  97   2        }
+  98   1      }
+  99          
+ 100          void key2()//减
+ 101          {
+ 102   1         k2=1;
+ 103   1         if(k2==0)
+ 104   1         {
+ 105   2            delay(1000);
+ 106   2                if(k2==0)
+ 107   2                {
+ 108   3                if(TIME[0]==0||TIME[1]==0||TIME[2]==0||TIME[3]==1||TIME[4]==1||TIME[5]==1)a=1;
+ 109   3                if(TIME[0]==0&&a==1)TIME[0]=0x60;
+ 110   3                if(TIME[1]==0&&a==1)TIME[1]=0x60;
+ 111   3                if(TIME[2]==0&&a==1)TIME[2]=0x24;
+ 112   3      
+ 113   3                if(TIME[4]%2==1)//月份为单月
+ 114   3                {
+ 115   4                if(TIME[3]==1&&a==1)TIME[3]=0x32;
+ 116   4                }
+ 117   3                  if(TIME[4]%2==0&&TIME[5]!=2)//月份为不为0的双月
+C51 COMPILER V9.01   KEY                                                                   05/27/2020 10:13:20 PAGE 3   
+
+ 118   3                  {
+ 119   4                  if(TIME[3]==1||a==1)TIME[3]=0x31;
+ 120   4                  }
+ 121   3                        if(TIME[5]%4==0&&TIME[5]==2)//月份为闰月
+ 122   3                    {
+ 123   4                    if(TIME[3]==1&&a==1)TIME[3]=0x30;
+ 124   4                    }  
+ 125   3                         if(TIME[5]%4!=0&&TIME[5]==2)//月份为平月
+ 126   3                     {
+ 127   4                      if(TIME[3]==1&&a==1)TIME[3]=0x29;
+ 128   4                     } 
+ 129   3                if(TIME[4]==1&&a==1)TIME[4]=0x13;
+ 130   3                if(TIME[5]==0&&a==1)TIME[5]=0xa0;
+ 131   3                TIME[status]--;
+ 132   3                if((TIME[status]&0x0f)>9)
+ 133   3                TIME[status]=TIME[status]-6;//换成bcd码
+ 134   3                
+ 135   3                }
+ 136   2                while(!k2);
+ 137   2         }
+ 138   1      }
+ 139          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    684    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      3       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
